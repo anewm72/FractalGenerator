@@ -1,0 +1,13 @@
+# ninja log v5
+2	407	7249390372879479	build.ninja	e9ddca2dd1d5320c
+3	407	7249390215524323	CMakeFiles/colouringBook.dir/main.c.obj	dcd9831678eba491
+4	136	7239134876805823	CMakeFiles/colouringBook.dir/svg.c.obj	1e44b5ed3e4d7fdf
+408	721	7249390218588604	colouringBook.exe	9696b1c3b8b255be
+44	585	7249408810840427	CMakeFiles/colouringBook.dir/main.c.obj	dcd9831678eba491
+586	970	7249408814568951	colouringBook.exe	9696b1c3b8b255be
+2	418	7249416557215101	CMakeFiles/colouringBook.dir/main.c.obj	dcd9831678eba491
+419	760	7249416560560327	colouringBook.exe	9696b1c3b8b255be
+3	460	7249420750391659	CMakeFiles/colouringBook.dir/main.c.obj	dcd9831678eba491
+460	827	7249420753904980	colouringBook.exe	9696b1c3b8b255be
+6	595	7249425515690083	CMakeFiles/colouringBook.dir/main.c.obj	dcd9831678eba491
+598	1019	7249425519760197	colouringBook.exe	9696b1c3b8b255be

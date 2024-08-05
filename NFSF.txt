@@ -1,0 +1,15 @@
+// this one will test the browser...
+TRANSFORM t_position ROTATION 90 TRANSLATION (-25,0) SCALE 0.4
+TRANSFORM t_spiral ROTATION 70 TRANSLATION (25,30) SCALE 1.09
+TRANSFORM t_nest ROTATION 22.5 TRANSLATION (13,-13) SCALE 0.6
+GRAPHIC g_octagon (-10,-5) (-10,5) (-5,10) (5,10) (10,5) (10,-5) (5,-10) (-5,-10) (-10,-5)
+FRACTAL f3
+BRANCH t_nest [10:40] GRAPHIC g_octagon
+BRANCH t_position [11:40] FRACTAL f2
+FRACTAL f2
+BRANCH t_spiral [0:16] GRAPHIC g_octagon
+BRANCH t_nest [14:40] FRACTAL f3
+FRACTAL f1
+BRANCH t_spiral [0:30] GRAPHIC g_octagon
+BRANCH t_position [8:40] FRACTAL f3
+BRANCH t_position [8:40] FRACTAL f2
